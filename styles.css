@@ -9,8 +9,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: hsl(240, 78%, 98%);
     width: 100vw;
-    height: 100vh;
     font-weight: 700;
+    overflow-x: hidden;
 }
 
 header {
@@ -19,14 +19,26 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 3rem;
 }
 
 .rownav {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #6C6E89;
+    text-align: center;
+    letter-spacing: .5px;
 }
 
 
@@ -37,6 +49,7 @@ header {
     display: inline-block;
     width: 72px;
     height: 31px;
+    margin: 0 15px;
 }
 
 .switch input {
@@ -49,7 +62,7 @@ header {
     position: absolute;
     cursor: pointer;
     top: 0;
-    left: 0;
+    left: 8px;
     right: 0;
     bottom: 0;
     background: linear-gradient(to right, #A3A8F0, #696FDD);
@@ -95,11 +108,8 @@ input:checked+.slider:before {
     border-radius: 50%;
 }
 
-h2 {
-    font-weight: 700;
-    color: #6C6E89;
-    text-align: center;
-}
+
+/* --------BOXES ---------*/
 
 h4 {
     display: inline;
@@ -112,8 +122,8 @@ h4 {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     box-sizing: border-box;
+    margin-top: 4rem;
 }
 
 .box {
