@@ -9,6 +9,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: hsl(240, 78%, 98%);
     width: 100vw;
+    height: 100vh;
+    font-weight: 700;
 }
 
 header {
@@ -41,4 +43,49 @@ h4 {
     align-items: center;
 }
 
-.box {}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 329px;
+    height: 429px;
+    background-color: #fff;
+    box-shadow: 10px 10px 5px hsl(233, 13%, 49%, 0.1);
+    border-radius: 10px;
+}
+
+p {
+    padding: 15px;
+    color: #6C6E89;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 66px;
+    color: hsl(232, 13%, 33%);
+}
+
+h3 {
+    color: hsl(233, 13%, 49%);
+}
+
+hr {
+    color: hsl(232, 13%, 33%);
+}
+
+button {
+    width: 270px;
+    height: 41px;
+    border-radius: 6px;
+    background: linear-gradient(to right, #A3A8F0, #696FDD);
+    border: none;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    outline: none;
+}
